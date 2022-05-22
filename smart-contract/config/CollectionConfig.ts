@@ -9,25 +9,25 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  contractName: 'JDW420',
+  tokenName: 'JDW420',
+  tokenSymbol: 'JDW420',
+  hiddenMetadataUri: 'ipfs://QmeRVVDzSeRTcXPuV2gNFCqyXcKFaNX9zUnjPvyRNMJ1Uh/JDhidden.json',
+  maxSupply: 420,
   whitelistSale: {
     price: 0.05,
-    maxMintAmountPerTx: 1,
+    maxMintAmountPerTx: 15,
   },
   preSale: {
     price: 0.07,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 25,
   },
   publicSale: {
     price: 0.09,
-    maxMintAmountPerTx: 5,
+    maxMintAmountPerTx: 55,
   },
-  contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  contractAddress: '0x5eBA23660895Fb60c65105253ea0e0ACA24Bf9F6',
+  marketplaceIdentifier: 'JDW420',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
