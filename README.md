@@ -46,4 +46,4 @@ _More videos coming soon..._
 - Infura free basic plan or higher _(optional: used by the CLI commands in order to perform operations on real blockchains, you can skip this if you deploy and manage your contract manually)_
 - Coin Market Cap free API key _(optional: used for retrieving the current token price for gas cost estimation in USD)_
 # jd420
-# jd420
+
