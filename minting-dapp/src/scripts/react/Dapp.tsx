@@ -72,7 +72,7 @@ export default class Dapp extends React.Component<Props, State> {
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">*** USE THIS LINK FOR COINBASE MOBILE ***</a> <br />
           <br /> <hr /> <br /> 
           You can also mint DIRECTLY FROM THE SMART CONTRACT through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, 
-          <strong>which will allow you to use most Ethereum-compatible wallets</strong>.<br />
+          <strong> which will allow you to use most Ethereum-compatible wallets</strong>.<br />
           <br />
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
