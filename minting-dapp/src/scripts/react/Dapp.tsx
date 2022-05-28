@@ -69,11 +69,11 @@ export default class Dapp extends React.Component<Props, State> {
           <br /><br /> <hr /> <br /> 
          <strong> Are you on a MOBILE device? This dapp is optimized to use the deeplinks below for Metamask Mobile or Coinbase Wallet.</strong> <br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">USE THIS LINK FOR METAMASK MOBILE</a> <br />
-          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">USE THIS LINK FOR COINBASE MOBILE</a> 
+          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">USE THIS LINK FOR COINBASE MOBILE</a> <br />
           <br /><br /> <hr /> <br /> 
           You can also interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, 
-          <strong>which will allow you to use pretty much any other Ethereum-compatible wallet</strong>
-          <br /><br /> <hr /> <br /> 
+          <strong>which will allow you to use pretty much any other Ethereum-compatible wallet</strong>.<br />
+          <br />
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
       );

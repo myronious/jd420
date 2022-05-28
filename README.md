@@ -33,7 +33,7 @@ This project was created for educational purposes, please refer to the [LICENCE]
 |`09`|Customizing the look and feel of the DAPP|https://youtu.be/GoDp6yZAY9A|
 |`10`|Deploying the DAPP|https://youtu.be/uUrbIXUgVz4|
 
-_More videos coming soon..._
+_More videos coming soon..._ ...
 
 ## Requirements
 
