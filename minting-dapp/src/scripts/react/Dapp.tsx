@@ -65,10 +65,15 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          This minting dapp is available through chrome desktop only. We were not able to detect <strong>MetaMask or Coinbase</strong> plugins on your device. We value <strong>privacy and security</strong>.  <br />
-          <br />
-          Instead, you can directly interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from the raw contract.<br />
-          <br />
+          This dapp is optimized for <strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask plugin</a></strong>. 
+          <br /><br /> <hr /> <br /> 
+         <strong> Are you on a MOBILE device? This dapp is optimized to use the deeplinks below for Metamask Mobile or Coinbase Wallet.</strong> <br />
+          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">USE THIS LINK FOR METAMASK MOBILE</a> <br />
+          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">USE THIS LINK FOR COINBASE MOBILE</a> 
+          <br /><br /> <hr /> <br /> 
+          You can also interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, 
+          <strong>which will allow you to use pretty much any other Ethereum-compatible wallet</strong>
+          <br /><br /> <hr /> <br /> 
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
       );
