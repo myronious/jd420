@@ -67,7 +67,7 @@ export default class Dapp extends React.Component<Props, State> {
         <>
           This minting dapp is available through chrome desktop only. We were not able to detect <strong>MetaMask or Coinbase</strong> plugins on your device. We value <strong>privacy and security</strong>.  <br />
           <br />
-          Instead, you can directly interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from the raw contract.<br />
+          Instead, use this link for MetaMask Mobile https://metamask.app.link/dapp/jd420.pages.dev/, or you can directly interact with the smart-contract through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> and <strong>we do our best to provide you with the best user experience possible</strong>, even from the raw contract.<br />
           <br />
           You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
         </>,
