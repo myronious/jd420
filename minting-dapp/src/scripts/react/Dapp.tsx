@@ -69,7 +69,7 @@ export default class Dapp extends React.Component<Props, State> {
           <br /><br /> <hr /> <br /> 
          <strong> ON A MOBILE DEVICE? <br />Use the Metamask Mobile or Coinbase Wallet deeplinks below to connect this dapp through their secure in-app browsers.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
-          <a href="https://go.cb-w.com/ha4ErCRYnqb">***COINBASE MOBILE***</a> <br />
+          <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
           <br /> <hr /> <br /> 
           You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
           <strong> which is compatible with most Ethereum/EVM wallets</strong>. Technical knowledge is required.<br />
