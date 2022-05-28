@@ -65,7 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          This dapp is optimized for <strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask plugin</a></strong>. 
+          <br />This dapp is optimized for <strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask plugin</a></strong>. 
           <br /><br /> <hr /> <br /> 
          <strong> On a MOBILE device? This dapp is optimized to use the deeplinks below for Metamask Mobile or Coinbase Wallet.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">*** USE THIS LINK FOR METAMASK MOBILE ***</a> <br /><br />
