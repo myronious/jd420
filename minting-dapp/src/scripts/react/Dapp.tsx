@@ -67,13 +67,13 @@ export default class Dapp extends React.Component<Props, State> {
         <>
           <br /><strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extension not detected.</strong>
           <br /><br /> <hr /> <br /> 
-         <strong> ON A MOBILE DEVICE? Use the Metamask Mobile or Coinbase Wallet deeplinks below, which connect this dapp to their in-app browsers.</strong> <br /><br />
-          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">*** USE THIS LINK FOR METAMASK MOBILE</a> <br /><br />
-          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">*** USE THIS LINK FOR COINBASE MOBILE</a> <br />
+         <strong> ON A MOBILE DEVICE? <br />Use the Metamask Mobile or Coinbase Wallet deeplinks below to connect this dapp through their secure in-app browsers.</strong> <br /><br />
+          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
+          <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
           <br /> <hr /> <br /> 
           You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
-          <strong> which is compatible with most Ethereum/EVM wallets</strong>.<br />
-          <br />
+          <strong> which is compatible with most Ethereum/EVM wallets</strong>. Technical knowledge is required.<br />
+          <br /><hr /> <br /> 
           Below, you can get your <strong>Whitelist Proof</strong> manually, if you need to.
         </>,
       );
