@@ -65,6 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
+          <br />THIS BETA TEST IS DEPLOYED ON THE RINKEBY NETWORK. PLS SET YOUR WALLET TO RINKEBY FOR MINTING.
           <br /><strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extension not detected.</strong>
           <br /><br /> <hr /> <br /> 
          <strong> ON A MOBILE DEVICE? <br />Use the Metamask Mobile or Coinbase Wallet deeplinks below to connect this dapp through their secure in-app browsers.</strong> <br /><br />
