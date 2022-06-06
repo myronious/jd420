@@ -65,10 +65,10 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <br />THIS BETA TEST IS DEPLOYED ON THE RINKEBY NETWORK. PLS SET YOUR WALLET TO RINKEBY FOR MINTING.
-          <br /><strong><a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extension not detected.</strong>
-          <br /><br /> <hr /> <br /> 
-         <strong> ON A MOBILE DEVICE? <br />Use the Metamask Mobile or Coinbase Wallet deeplinks below to connect this dapp through their secure in-app browsers.</strong> <br /><br />
+          <br />SET YOUR WALLET TO RINKEBY TEST NETWORK BEFORE YOU MINT.
+          <br /><br /><strong>Looks like you're not using the <a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions. This combo is preferred. HOWEVER.....</strong>
+          <br /><br /> <br /> 
+         <strong> ARE YOU ON A MOBILE DEVICE? <br />Use the Metamask Wallet or Coinbase Wallet links below to connect this dapp through those apps' secure in-app browsers.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
           <br /> <hr /> <br /> 
