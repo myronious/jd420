@@ -15,16 +15,16 @@ const CollectionConfig: CollectionConfigInterface = {
   hiddenMetadataUri: 'ipfs://QmeRVVDzSeRTcXPuV2gNFCqyXcKFaNX9zUnjPvyRNMJ1Uh/JDhidden.json',
   maxSupply: 420,
   whitelistSale: {
-    price: 0.05,
-    maxMintAmountPerTx: 15,
+    price: 0.02,
+    maxMintAmountPerTx: 10,
   },
   preSale: {
-    price: 0.07,
-    maxMintAmountPerTx: 25,
+    price: 0.03,
+    maxMintAmountPerTx: 15,
   },
   publicSale: {
-    price: 0.09,
-    maxMintAmountPerTx: 55,
+    price: 0.04,
+    maxMintAmountPerTx: 50,
   },
   contractAddress: '0x5eBA23660895Fb60c65105253ea0e0ACA24Bf9F6',
   marketplaceIdentifier: 'JDW420',
