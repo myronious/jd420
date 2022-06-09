@@ -211,11 +211,11 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo, using a list of design features which are interchanged throughout the JDW 420 COLLECTION. :)<br /><br />
-              <hr /><br />THERE ARE *ONLY* 420 OF THESE FIRST-EDITION MINTS. Holders of these mints will get to-be-periodically-announced perks for their early support. BIG THANKS to you.<br /><br />
-              <hr /><br />PHASE 1: WHITELIST members can mint up to 10 NFTs, which will have RANDOM SECRET rarities (to be revealed later), including background type, MOON type, and more... <br /><br />
-              <hr /><br />PHASE 2: PRESALE phase will be open for a few days after the WHITELIST closes. These will also have RANDOM SECRET rarities, and you can mint up to 15 of them.<br /><br />  
-              <hr /><br />PHASE 3: PUBLIC SALE will be open after the PRESALE closes. <br /><br />  
+              <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo, using a list of design traits which are interchanged throughout the JDW 420 COLLECTION. :)<br /><br />
+              <hr /><br />THERE ARE *ONLY* 420 OF THESE FIRST-EDITION MINTS. Holders will get periodically-announced perks for their early support. BIG THANKS to you.<br /><br />
+              <hr /><br />PHASE 1: WHITELIST allows up to 10 NFTs minted at .02 ETH , which will have RANDOM SECRET rarities (to be revealed later), including background type, MOON type, and more... <br /><br />
+              <hr /><br />PHASE 2: PRESALE phase will open after the WHITELIST closes. These will also have RANDOM SECRET rarities, and you can mint up to 15 of them at .03 ETH.<br /><br />  
+              <hr /><br />PHASE 3: PUBLIC SALE will be open after the PRESALE closes. Limit 50 at .04 ETH<br /><br />  
               <hr /><br />PHASE 4: The collection's rarities will be REVEALED. <br />Mint limit is 50. <br /><br /> 
               <strong>Thank you for supporting our move into web 3! The future is bright, it's the wild west, the sky is the limit. </strong> <span className="emoji">🎶</span><br /><br />
               <hr /><br />You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br /><br />
