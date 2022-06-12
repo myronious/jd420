@@ -65,8 +65,8 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <br />SET YOUR WALLET TO RINKEBY TEST NETWORK BEFORE YOU MINT.
-          <br /><br /><strong>Looks like you're not using the <a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions. This combo is preferred. HOWEVER.....</strong>
+          <br />SET YOUR WALLET TO POLYGON MUMBAI TEST NETWORK TO USE THIS MINTER.
+          <br /><br /><strong>Looks like you're not using the <a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions. This combo is preferred. HOWEVER.....</strong>
           <br /><br /> <br /> 
          <strong> ARE YOU ON A MOBILE DEVICE? <br />Use the Metamask Wallet or Coinbase Wallet links below to connect this dapp through those apps' secure in-app browsers.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
@@ -211,8 +211,9 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
+              <hr /><br />SET YOUR WALLET TO POLYGON MUMBAI TEST NETWORK TO USE THIS MINTER.<br /><br />
               <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo, using a list of design traits which are interchanged throughout the JDW 420 COLLECTION. :)<br /><br />
-              <hr /><br />THERE ARE *ONLY* 420 OF THESE FIRST-EDITION MINTS. Holders will get periodically-announced perks for their early support. BIG THANKS to you.<br /><br />
+              <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
               <hr /><br />PHASE 1: WHITELIST allows up to 10 NFTs minted at .02 ETH , which will have RANDOM SECRET rarities (to be revealed later), including background type, MOON type, and more... <br /><br />
               <hr /><br />PHASE 2: PRESALE phase will open after the WHITELIST closes. These will also have RANDOM SECRET rarities, and you can mint up to 15 of them at .03 ETH.<br /><br />  
               <hr /><br />PHASE 3: PUBLIC SALE will be open after the PRESALE closes. Limit 50 at .04 ETH<br /><br />  
