@@ -4,8 +4,8 @@ import * as Marketplaces from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
-  mainnet: Networks.ethereumMainnet,
+  testnet: Networks.polygonTestnet,
+  mainnet: Networks.polygonMainnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.04,
     maxMintAmountPerTx: 50,
   },
-  contractAddress: '0x5eBA23660895Fb60c65105253ea0e0ACA24Bf9F6',
+  contractAddress: '0xC7Ba20B2e87d59aD40538Dd47EAC6950007A5a0b',
   marketplaceIdentifier: 'JDW420',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
