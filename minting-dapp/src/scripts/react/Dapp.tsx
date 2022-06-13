@@ -211,7 +211,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><br />SET YOUR WALLET TO POLYGON MUMBAI TEST NETWORK TO USE THIS MINTER.<br /><br />
+              <hr /><br />SET YOUR WALLET TO POLYGON MUMBAI TEST NETWK TO USE THIS MINTER.<br /><br />
               <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo, using a list of design traits which are interchanged throughout the JDW 420 COLLECTION. :)<br /><br />
               <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
               <hr /><br />PHASE 1: WHITELIST allows up to 10 NFTs minted at .02 ETH , which will have RANDOM SECRET rarities (to be revealed later), including background type, MOON type, and more... <br /><br />
