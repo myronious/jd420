@@ -65,7 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />This minter USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  <br />Prices on this minter are in MATIC NATIVE (NOT ERC-20). <br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
+          <hr /><br />This minter USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**  <br /><br />Prices on this minter are in MATIC NATIVE *NOT MATIC ERC-20* <br /><br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
           <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br /> <br /> 
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
