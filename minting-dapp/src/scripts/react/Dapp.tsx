@@ -65,17 +65,17 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <br />SET YOUR WALLET TO POLYGON MUMBAI TEST NETWORK TO USE THIS MINTER.
-          <br /><br /><strong>Looks like you're not using the <a href="https://www.google.com/chrome/" target="_blank">CHROME DESKTOP BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions. This combo is preferred. HOWEVER.....</strong>
+          <hr /><br />This minter USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  <br />Prices on this minter are in MATIC NATIVE (NOT ERC-20). <br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
+          <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br /> <br /> 
-         <strong> ARE YOU ON A MOBILE DEVICE? <br />Use the Metamask Wallet or Coinbase Wallet links below to connect this dapp through those apps' secure in-app browsers.</strong> <br /><br />
+         <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
           <br /> <hr /> <br /> 
-          You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
-          <strong> which is compatible with most Ethereum/EVM wallets</strong>. Technical knowledge is required.<br />
+          You can mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
+          <strong> if you're using another wallet</strong>. Technical knowledge is required.<br />
           <br /><hr /> <br /> 
-          Below, you can get your <strong>Whitelist Proof</strong> manually, if you need to.
+          Below, you can get <strong>Whitelist Proof</strong> manually, if you wish.
         </>,
       );
     }
@@ -211,12 +211,12 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><br />THIS MINTER USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  <br />ALL PRICES ARE IN MATIC NATIVE (NOT ERC-20). <br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OPENSEA.IO<br /><br />
+              <hr /><br />This minter USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  <br />Prices on this minter are in MATIC NATIVE (NOT ERC-20). <br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
               <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo. <br />Traits and rarities are SECRET until we REVEAL them. :)<br /><br />
-              <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
-              <hr /><br />PHASE 1: WHITELIST allows up to 10 NFTs minted at 55 MATIC TOKENS, which will have RANDOM SECRET rarities (revealed later), including background type, MOON type, and more... <br /><br />
-              <hr /><br />PHASE 2: PRESALE phase will open after the WHITELIST closes. You can mint up to 15 of them at 85 MATIC. These will also have RANDOM SECRET traits.<br /><br />  
-              <hr /><br />PHASE 3: PUBLIC SALE will be open after the PRESALE closes. Limit 50 at 110 MATIC<br /><br />  
+              <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. <br />Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
+              <hr /><br />PHASE 1: WHITELIST - Limit of 10 NFTs per transaction. Price per NFT = 55 MATIC + gas. <br /><br />
+              <hr /><br />PHASE 2: PRESALE - Limit of 15 NFTs per transaction. Price per NFT = 85 MATIC + gas. <br /><br />  
+              <hr /><br />PHASE 3: PUBLIC SALE - Limit of 50 NFTs per transaction. Price per NFT = 110 MATIC + gas<br /><br />  
               <hr /><br />PHASE 4: The collection's rarities will be REVEALED. <br />Mint limit is 50. <br /><br /> 
               <strong>Thank you for supporting our move into web 3! The future is bright, it's the wild west, the sky is the limit. </strong> <span className="emoji">🎶</span><br /><br />
               <hr /><br />You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br /><br />
