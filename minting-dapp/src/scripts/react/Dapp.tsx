@@ -65,7 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />This minter USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**  <br /><br /><br />Prices on this minter are in MATIC NATIVE *NOT MATIC ERC-20*<br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
+          <hr /><br />This minter  **ONLY** accepts POLYGON NATIVE MATIC TOKENS <br /><br /><br />Prices on this minter are in MATIC NATIVE *NOT MATIC ERC-20, which is what you get on Coinbase's exchange*<br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
           <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br /> <br /> 
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
@@ -211,7 +211,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><br />This minter USES POLYGON NATIVE MATIC TOKENS **ONLY**.  <br /><br /> <a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask through this link.</a> <br /><br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
+              <hr /><br />This minter **ONLY** accepts POLYGON NATIVE MATIC TOKENS <br /><br /> <a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask through this link.</a> <br /><br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
               <hr /><br />Each JD MOON NFT is a 1-of-1 artwork <br /><br />Traits and rarities are SECRET until we REVEAL them. :)<br /><br />
               <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. <br /><br />Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
               <hr /><br />PHASE 1: WHITELIST - Limit of 10 NFTs per transaction. Price per NFT = 55 MATIC + gas. <br /><br />
