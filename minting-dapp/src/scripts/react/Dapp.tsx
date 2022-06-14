@@ -211,7 +211,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><br />THIS MINTER USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  ALL PRICES ARE IN MATIC NATIVE (NOT ERC-20). IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OPENSEA.IO<br /><br />
+              <hr /><br />THIS MINTER USES POLYGON NATIVE CHAIN MATIC TOKENS **ONLY**.  <br />ALL PRICES ARE IN MATIC NATIVE (NOT ERC-20). <br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OPENSEA.IO<br /><br />
               <hr /><br />Each NFT is a 1-of-1 artwork, based on the JD MOON logo, using a list of design traits which are interchanged throughout the JDW 420 COLLECTION. :)<br /><br />
               <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
               <hr /><br />PHASE 1: WHITELIST allows up to 10 NFTs minted at 55 MATIC TOKENS, which will have RANDOM SECRET rarities (revealed later), including background type, MOON type, and more... <br /><br />
