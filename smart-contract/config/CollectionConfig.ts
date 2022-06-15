@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 110,
     maxMintAmountPerTx: 50,
   },
-  contractAddress: '0xC7Ba20B2e87d59aD40538Dd47EAC6950007A5a0b',
+  contractAddress: '0x23Ea9194AB09f8E6511bd77481AD6C6F892Bc3D2',
   marketplaceIdentifier: 'JDW420',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
