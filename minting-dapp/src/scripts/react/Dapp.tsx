@@ -214,10 +214,10 @@ export default class Dapp extends React.Component<Props, State> {
               <hr /><br />This minter **ONLY** accepts POLYGON NATIVE MATIC TOKENS <br /><br /> <a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask through this link.</a> <br /><br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
               <hr /><br />Each JD MOON NFT is a 1-of-1 artwork <br /><br />Traits and rarities are SECRET until we REVEAL them. :)<br /><br />
               <hr /><br />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. <br /><br />Early holders will get perks airdropped for their support. BIG THANKS to you.<br /><br />
-              <hr /><br />PHASE 1: WHITELIST - Limit of 10 NFTs per transaction. Price per NFT = 55 MATIC + gas. <br /><br />
-              <hr /><br />PHASE 2: PRESALE - Limit of 15 NFTs per transaction. Price per NFT = 85 MATIC + gas. <br /><br />  
-              <hr /><br />PHASE 3: PUBLIC SALE - Limit of 50 NFTs per transaction. Price per NFT = 110 MATIC + gas<br /><br />  
-              <hr /><br />PHASE 4: The collection's rarities will be REVEALED. <br /><br />Mint limit is 50. <br /><br /> 
+              <hr /><br />PHASE 1: <br />WHITELIST - Limit of 10 NFTs per transaction. Price per NFT = 55 MATIC + gas. <br /><br />
+              <hr /><br />PHASE 2: <br />PRESALE - Limit of 15 NFTs per transaction. Price per NFT = 85 MATIC + gas. <br /><br />  
+              <hr /><br />PHASE 3: <br />PUBLIC SALE - Limit of 50 NFTs per transaction. Price per NFT = 110 MATIC + gas<br /><br />  
+              <hr /><br />PHASE 4: <br />The collection's rarities will be REVEALED. <br /><br />Mint limit is 50. <br /><br /> 
               <strong>Thank you for supporting our move into web 3! The future is bright, it's the wild west, the sky is the limit. </strong> <span className="emoji">🎶</span><br /><br />
               <hr /><br />You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br /><br />
               Thank you! <span className="emoji">🎶</span><br /><br />
