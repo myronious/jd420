@@ -211,16 +211,21 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><span className="emoji">⚠️</span> Native MATIC tokens only. <a href="https://chainlist.org/chain/137" target="_blank">You can add POLYGON to MetaMask through this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
-              <hr /><br />Each <span className="emoji">🚀</span>JD MOON NFT<span className="emoji">🚀</span> is a 1-of-1 artwork, which doubles as JD Westmoreland's "social token."  <br /><br />
-              <hr />THERE ARE *ONLY* 420 FIRST-EDITION MINTS. <br /><span className="emoji">💖</span> Early holders will get special airdrops! <span className="emoji">💖</span><br />
-              <hr /><br /><span className="emoji">🚀</span>WHITELIST - Max 10 per transaction. <br />Price per NFT = 55 MATIC + gas. <br /><br />
-              <hr /><br /><span className="emoji">🚀</span>PRESALE - Max of 15 per transaction. <br />Price per NFT = 85 MATIC + gas. <br /><br />  
-              <hr /><br /><span className="emoji">🚀</span>PUBLIC SALE - Max of 50 per transaction. <br />Price per NFT = 110 MATIC + gas<br /><br />  q
-              <hr /><br />The collection's traits will be revealed when . <br /><br />Mint limit is 50. <br /><br /> 
-              <strong>Thank you for supporting our move into web 3! <br /><br />The future is bright, it's the wild west, the sky is the limit. </strong> <span className="emoji">🎶</span><br /><br />
+              <hr /><span className="emoji">⚠️</span> Native MATIC tokens only. <br/><a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
+              <hr /><span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> 
+              <hr />
+              Each <span className="emoji"></span> JD MOON NFT <span className="emoji">🌙</span> is a 1-of-1 artwork in a series of 420, which doubles as JD Westmoreland's "social token."  <br />
+              <hr /><span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> 
+              <br /><hr /><span className="emoji">➡️</span> WHITELIST - Max 10 per transaction. <br />Price per NFT = 55 MATIC + gas. <br />
+              <hr /><span className="emoji">➡️</span> PRESALE - Max of 15 per transaction. <br />Price per NFT = 85 MATIC + gas. <br />
+              <hr /><span className="emoji">➡️</span> PUBLIC SALE - Max of 50 per transaction. <br />Price per NFT = 110 MATIC + gas<br />  
+              <hr />
+              <hr /><span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> 
+              
+              <br /><hr /><strong>Thank you for supporting our move into web 3! My crew has ideas and tenacity...but no roadmap yet. We're not going anywhere, though....so you'll see things as they develop.</strong> <br />
+              <hr /><span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span>  <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> <span className="emoji">🟦</span> 
+              
               <hr /><br />You can mint <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, if you know how. <span className="emoji">🚀</span><br /><br />
-              Thank you! <span className="emoji">🎶</span><br /><br />
               <hr /><br />
             </div>
 
