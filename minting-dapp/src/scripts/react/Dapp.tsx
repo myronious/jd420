@@ -65,15 +65,13 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a>
-          <br /><br /><hr /> 
+          <h2><hr />
           <br /><strong>ON A DESKTOP? <br />Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask </a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br />
          <strong>ON A MOBILE DEVICE? <br />Use the links below to use the NFT Minting App in MetaMask or Coinbase's secure app.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
-          <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> 
-          <hr /> <br /> 
-          You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT. Technical knowledge is required.<br /><br />
+          <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> </h2>
+          <hr /> <br />
           <hr /> 
         </>,
       );
