@@ -70,8 +70,8 @@ export default class Dapp extends React.Component<Props, State> {
           <br /><br />
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
-          <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
-          <br /> <hr /> <br /> 
+          <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> 
+          <hr /> <br /> 
           You can mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
           <strong> if you're using another wallet</strong>. Technical knowledge is required.<br />
           <br /><hr /> <br /> 
