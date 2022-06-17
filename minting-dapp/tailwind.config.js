@@ -32,7 +32,7 @@ module.exports = {
         },
         error: {
           txt: colors.red[500],
-          bg: colors.red[50],
+          bg: colors.slate[900],
           border: colors.red[200],
         },
 

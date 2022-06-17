@@ -46,7 +46,7 @@ span.emoji {
   @apply rounded-lg;
   @apply p-3;
 
-  @apply text-center;
+  
   
   @apply text-error-txt text-sm;
   @apply bg-error-bg;
@@ -54,7 +54,7 @@ span.emoji {
   @apply shadow;
 
   &::before {
-    content: 'Error';
+    content: 'ATTENTION';
 
     @apply font-semibold;
     @apply text-base;
