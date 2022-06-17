@@ -65,7 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />This minter  **ONLY** accepts POLYGON NATIVE MATIC TOKENS <br /><br /><br />Prices on this minter are in MATIC NATIVE *NOT MATIC ERC-20, which is what you get on Coinbase's exchange*<br />IF YOU ARE USING ETHEREUM NATIVE MATIC, PLEASE BUY FROM OUR OPENSEA STORE<br /><br />
+          <hr /><br />POLYGON NATIVE MATIC TOKENS **ONLY** <br /><br /><br /><br />IF YOU ARE NOT SURE YOU HAVE NATIVE-CHAIN MATIC, PLEASE BUY FROM OUR OPENSEA STORE INSTEAD<br /><br />
           <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br /> <br /> 
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
@@ -212,28 +212,29 @@ export default class Dapp extends React.Component<Props, State> {
             
             <div className="use-block-explorer">
               <hr /><span className="emoji">⚠️</span> Native MATIC tokens only. <br/><a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
-              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> 
-              <hr />
-              Each <span className="emoji"></span> JD MOON NFT <span className="emoji">🌙</span> is a 1-of-1 artwork in a series of 420, which doubles as JD Westmoreland's "social token."  <br />
-              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> 
+              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  
+              <hr /><span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br />
+              <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br /> 
+              <span className="emoji">🌘</span><span className="emoji">🌗</span>  JD MOON, 420 NFT  <span className="emoji">🌓</span><span className="emoji">🌒</span><br />
+              <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br /> 
+              Each mint is a 1-of-1 artwork in a series of 420, which doubles as JD Westmoreland's "social token."  <br />
+              We don't have a "roadmap," ...but as this technology develops, so will our use of it. Early supporters will get rewarded; thank YOU especially.<br />
+              <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br />
+              <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span>
+              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  
               <br /><hr /><span className="emoji">➡️</span> WHITELIST - Max 10 per transaction. <br />Price per NFT = 55 MATIC + gas. <br />
               <hr /><span className="emoji">➡️</span> PRESALE - Max of 15 per transaction. <br />Price per NFT = 85 MATIC + gas. <br />
               <hr /><span className="emoji">➡️</span> PUBLIC SALE - Max of 50 per transaction. <br />Price per NFT = 110 MATIC + gas<br />  
-              <hr />
-              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> 
-              
-              <br /><hr /><strong>Thank you for supporting our move into web 3! My crew has ideas and tenacity...but no roadmap yet. We're not going anywhere, though....so you'll see things as they develop.</strong> <br />
-              <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> <span className="emoji">⬛</span> 
-              
+              <hr /><hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>   
               <hr /><br />You can mint <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, if you know how. <span className="emoji">🚀</span><br /><br />
-              <hr /><br />
+              <hr />
             </div>
 
             {!this.isWalletConnected() || this.state.isWhitelistMintEnabled ?
               <div className="merkle-proof-manual-address">
                 <h2>Whitelist Proof</h2>
                 <p>
-                  Anyone can generate the proof using any public address in the list, but <strong>only the owner of that address</strong> will be able to make a successful transaction by using it.
+                  Anyone can generate a proof using any address on the whitelist, but <strong>only the owner of that address</strong> can use it to mint.
                 </p>
 
                 {this.state.merkleProofManualAddressFeedbackMessage ? <div className="feedback-message">{this.state.merkleProofManualAddressFeedbackMessage}</div> : null}
