@@ -65,15 +65,16 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> **NOT SURE** YOU HAVE NATIVE-CHAIN MATIC? <a href="#">PLEASE CLICK HERE TO BUY FROM OUR OPENSEA STORE INSTEAD</a>
-          <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
+          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> **NOT SURE IF YOU HAVE NATIVE-CHAIN MATIC??** <a href="#">THEN PLEASE CLICK HERE TO BUY FROM OUR OPENSEA STORE INSTEAD</a>
+          <br /><hr /> 
+          <br /><br /><strong>ON A DESKTOP? <br />Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br />
-         <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
+         <strong>ON A MOBILE DEVICE? <br />Use the links below to connect through your wallet app. Only compatible with MetaMask and Coinbase on Polygon network.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> 
           <hr /> <br /> 
-          You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT. Technical knowledge is required.<br />
-          <br /><hr /> 
+          You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT. Technical knowledge is required.<br /><br />
+          <hr /> 
         </>,
       );
     }
