@@ -65,7 +65,7 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> **NOT SURE IF YOU HAVE NATIVE-CHAIN MATIC??** <a href="#">THEN PLEASE CLICK HERE TO BUY FROM OUR OPENSEA STORE INSTEAD</a>
+          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
           <br /><br /><hr /> 
           <br /><strong>ON A DESKTOP? <br />Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br />
