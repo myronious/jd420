@@ -71,7 +71,7 @@ export default class Dapp extends React.Component<Props, State> {
          <strong>ON A MOBILE DEVICE? <br />Click the links below to use the NFT Minting App in MetaMask or Coinbase's secure in-app browsers.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> </h2>
-          <hr /> <br />
+          <hr />
         </>,
       );
     }
