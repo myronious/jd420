@@ -65,17 +65,15 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />POLYGON NATIVE MATIC TOKENS **ONLY**<br /><br />IF YOU ARE NOT SURE YOU HAVE NATIVE-CHAIN MATIC, PLEASE BUY FROM OUR OPENSEA STORE INSTEAD
+          <hr /><br />NATIVE POLYGON CHAIN MATIC TOKENS **ONLY**<br /><br /> **NOT SURE** YOU HAVE NATIVE-CHAIN MATIC? <a href="#">PLEASE CLICK HERE TO BUY FROM OUR OPENSEA STORE INSTEAD</a>
           <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
           <br /><br />
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br /><br /> 
           <hr /> <br /> 
-          You can mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT, 
-          <strong> if you're using another wallet</strong>. Technical knowledge is required.<br />
-          <br /><hr /> <br /> 
-          Below, you can get <strong>Whitelist Proof</strong> manually, if you wish.
+          You can also mint DIRECTLY FROM THE <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> SMART CONTRACT. Technical knowledge is required.<br />
+          <br /><hr /> 
         </>,
       );
     }
@@ -211,7 +209,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><span className="emoji">⚠️</span> Native MATIC tokens only. <br/><a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
+              <hr /><span className="emoji">⚠️</span> Native Polygon chain MATIC tokens only. <br/><a href="https://chainlist.org/chain/137" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then you should <a href="#" target="_blank">click this link to buy from our OpenSea store instead.</a><br />
               <hr /><span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  <span className="emoji">⬛</span>  
               <hr /><span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br />
               <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br /> 
