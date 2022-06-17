@@ -65,9 +65,9 @@ export default class Dapp extends React.Component<Props, State> {
     if (browserProvider?.isMetaMask !== true) {
       this.setError( 
         <>
-          <hr /><br />POLYGON NATIVE MATIC TOKENS **ONLY** <br /><br /><br /><br />IF YOU ARE NOT SURE YOU HAVE NATIVE-CHAIN MATIC, PLEASE BUY FROM OUR OPENSEA STORE INSTEAD<br /><br />
+          <hr /><br />POLYGON NATIVE MATIC TOKENS **ONLY**<br /><br />IF YOU ARE NOT SURE YOU HAVE NATIVE-CHAIN MATIC, PLEASE BUY FROM OUR OPENSEA STORE INSTEAD
           <br /><br /><strong>ON A DESKTOP? Use <a href="https://www.google.com/chrome/" target="_blank">CHROME BROWSER</a> with the <a href="https://metamask.io" target="_blank">MetaMask</a>or <a href="https://www.coinbase.com/wallet/getting-started-extension" target="_blank">Coinbase Wallet</a> extensions.</strong>
-          <br /><br /> <br /> 
+          <br /><br />
          <strong>ON A MOBILE DEVICE? <br />Use the Metamask or Coinbase links below to connect through your wallet app.</strong> <br /><br />
           <a href="https://metamask.app.link/dapp/jd420.pages.dev/">***METAMASK MOBILE***</a> <br /><br />
           <a href="cbwallet://dapp?url=https://jd420.pages.dev/">***COINBASE MOBILE***</a> <br />
