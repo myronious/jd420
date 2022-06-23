@@ -207,7 +207,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
             
             <div className="use-block-explorer">
-              <hr /><span className="emoji">⚠️</span> Native Polygon MATIC tokens only. <br/><a href="https://chainlist.org/" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then please <a href="#" target="_blank">click this link to use our OpenSea storefront instead.</a><br />
+              <hr /><span className="emoji">⚠️</span> Native Polygon MATIC tokens only. <br/><a href="https://chainlist.org/" target="_blank">Add POLYGON to MetaMask with this link.</a> <hr /><span className="emoji">⚠️</span> Not sure if you're using Native MATIC? <br/> Then please <a href="#" target="_blank">use our OpenSea storefront instead.</a><br />
               <hr /><span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br /> 
               <span className="emoji">🌘</span><span className="emoji">🌗</span>  JD MOON, 420 NFT  <span className="emoji">🌓</span><span className="emoji">🌒</span><br />
               <span className="emoji">🌘</span><span className="emoji">🌗</span><span className="emoji">🌖</span><span className="emoji">🌕</span><span className="emoji">🌔</span><span className="emoji">🌓</span><span className="emoji">🌒</span><br /> 
